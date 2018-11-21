@@ -1,0 +1,44 @@
+
+
+{{CategoryPosts | json}}
+     <!--List of posts-->
+ 
+   <!--  <div *ngIf="CategoryPosts.Posts.length > 0"></div>
+     <div id="postlist" *ngFor="let p of CategoryPosts">        
+      
+      <div class="post post-row" *ngFor="let post of p.posts">
+        
+
+          <a class="post-img" href="blog-post.html"><img src="assets/img/{{post.src}}" alt=""></a>
+          <div class="post-body">
+            <h3 class="post-title"><a href="blog-post.html">{{post.title}}</a></h3>
+            <ul class="post-meta">
+              <li><a href="author.html">{{post.autorName}}</a></li>
+              <li>{{post.createdAt}}</li>
+            </ul>
+            <p>{{post.description}}</p>
+          </div>                 
+      </div>
+        
+      </div>
+    -->
+         
+  
+  <ng-template #elseBlock>  ...</ng-template>
+
+
+
+
+
+
+
+
+
+
+
+
+        <pagination [boundaryLinks]="true" [totalItems]="77"
+            previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
+ 
+      </pagination>
+           
